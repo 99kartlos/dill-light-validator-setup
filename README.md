@@ -1,6 +1,11 @@
-# Dill Light Validator Kurulum Scripti
+# Dill Light Validator Kurulum 
 
-Bu depo, Dill hafif doğrulayıcı düğümünü kurmak için bir script içerir.
+| Network Name | Dill Testnet Andes |
+| --- | --- |
+| RPC URL | https://rpc-andes.dill.xyz/ |
+| Chain ID | 558329 |
+| Currency symbol | DILL |
+| Explorer URL | https://andes.dill.xyz/ |
 
 ## Talimatlar
 
