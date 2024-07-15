@@ -10,3 +10,14 @@ Bu depo, Dill hafif doğrulayıcı düğümünü kurmak için bir script içerir
 
    ```sh
    curl -O https://raw.githubusercontent.com/99kartlos/dill-light-validator-setup/main/setup_light_validator.sh && chmod +x setup_light_validator.sh && ./setup_light_validator.sh
+
+
+2. **Sırasıyla Soruları yanıtlayın:**
+
+Dil seçimi: Sırasıya 3 ve 4'e basın. İngilizce dışında bir şey seçmenize gerek yok.
+Parola oluşturma: Validator keystore(s) güvenliği için bir şifre oluşturun.
+Depozito Miktarı Belirleme: Varsayılan olarak 2500 DILL kalsın değiştirmenize gerek yok. Enter deyip geçin.
+Mnemonic (Seed Phrase) Not Edinme: Mnemonic'leriniz size gösterilecektir. Bunu kopyalayıp onaylamak için tekrar girin ve güvenli bir yerde saklayın. Bu, depozitonuzu geri almanın TEK yoludur.
+
+
+
