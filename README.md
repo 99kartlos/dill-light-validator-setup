@@ -26,11 +26,21 @@
 
 2. **Sırasıyla Soruları yanıtlayın:**
 
+-Dosyaları indirmesini bekleyin.
+
 -Dil seçimi: Sırasıya 3 ve 4'e basın. İngilizce dışında bir şey seçmenize gerek yok.
 
--Parola oluşturma: Validator keystore(s) güvenliği için bir şifre oluşturun.
+-Parola oluşturma: Validator keystore(s) güvenliği için bir şifre oluşturun. Daha sonra onaylamak için tekrar girin.
+
+-Yatırılacak DILL token miktarı (varsayılan olarak 2500) olarak seçin. Yani Enter deyip geçin.
 
 -Mnemonic (Seed Phrase) Not Edinme: Mnemonic'leriniz size gösterilecektir. Bunu kopyalayıp onaylamak için tekrar girin ve güvenli bir yerde saklayın. Bu, depozitonuzu geri almanın TEK yoludur.
 
+- Key'ler oluşturulduktan sonra  "Success! Your keys can be found at: ./validator_keys" çıktısını aldıtkan sonra enter deyip geçin.
 
+- Daha sonra doğrulayıcı anahtar deponuz için bir şifre oluşturun ve onaylamak için tekrar girin.
+
+- Şimdi sizden cüzdan şifresi girmenizi isteyecek. En az 8 karakterli bir şifre girin ve onaylamak için tekrar girin.
+
+- Son olarak i
 
