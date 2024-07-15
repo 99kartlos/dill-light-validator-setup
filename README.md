@@ -38,9 +38,7 @@
 
 - Key'ler oluşturulduktan sonra  "Success! Your keys can be found at: ./validator_keys" çıktısını aldıtkan sonra enter deyip geçin.
 
-- Daha sonra doğrulayıcı anahtar deponuz için bir şifre oluşturun ve onaylamak için tekrar girin.
-
 - Şimdi sizden cüzdan şifresi girmenizi isteyecek. En az 8 karakterli bir şifre girin ve onaylamak için tekrar girin.
 
-- Son olarak i
+- Sırada içe aktardığınız hesaplarınızın şifresini girmek var. 
 
