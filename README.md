@@ -1,5 +1,12 @@
 # Dill Light Validator Kurulum 
 
+|  | Minimum |
+| --- | --- |
+| CPU | 2 cores |
+| Memory | 2G |
+| Disk | 20G |
+| Network | 1MB/s |
+
 | Network Name | Dill Testnet Andes |
 | --- | --- |
 | RPC URL | https://rpc-andes.dill.xyz/ |
