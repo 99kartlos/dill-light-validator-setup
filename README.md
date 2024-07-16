@@ -62,7 +62,7 @@ Setup complete!
 cat ./validator_keys/deposit_data-xxxx.json
 ```
 - To get from SCP: First, connect to your server with an scp program (I usually use WinSCP). Then go to /dill/validator_keys directory and get your deposit_data-xxxx.json file and upload it to the site.
-- 
+
 ![image](https://github.com/user-attachments/assets/742afc78-4459-4c87-adbd-1f86de5d0ee9)
 
 - If you have installed the node on Lightsail and cannot connect to the server, follow these steps:
