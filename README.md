@@ -46,4 +46,12 @@ Setup complete!
 
 ## Staking
 
+- First, get faucet into your wallet from the Andes channel. Use a different wallet than the one you created in Node and remember that you can only receive faucet once ($request xxxxx)
+
+- visit https://staking.dill.xyz/
+
+- Here you will upload your file with deposit_data-xxxx.json extension. If you want, you can create this file yourself. To do this, you can create and upload a file named deposit_data-xxxx.json with the output you receive using this code.
+
+- To get from SCP: 
+
 
