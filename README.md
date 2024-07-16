@@ -11,13 +11,13 @@ Operating System | Ubuntu 22.04.2 LTS or higher versions (x86-64)
 Storage | 20 GB
 Network Bandwidth | 1MB/s 
 
-
+# Dill Public Testnet (Andes Testnet) Information
 | Network Name | Dill Testnet Andes |
 | --- | --- |
-| RPC URL | https://rpc-andes.dill.xyz/ |
-| Chain ID | 558329 |
-| Currency symbol | DILL |
-| Explorer URL | https://andes.dill.xyz/ |
+RPC URL | https://rpc-andes.dill.xyz/ 
+Chain ID | 558329 
+Currency symbol | DILL 
+Explorer URL | https://andes.dill.xyz/ 
 
 ## Instructions
 
