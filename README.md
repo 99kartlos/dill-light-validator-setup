@@ -68,4 +68,14 @@ cat ./validator_keys/deposit_data-xxxx.json
 - If you have installed the node on Lightsail and cannot connect to the server, follow these steps:
 - 
   ![image](https://github.com/user-attachments/assets/8832ca9a-7abe-4b8e-94e6-ea4fd2728766)
--- First, click on your server from the Instances section in Lightsail. Then click "Download default key" in the "Use your own SSH client" section and download the file with .pem extension.
+  
+- First, click on your server from the Instances section in Lightsail. Then click "Download default key" in the "Use your own SSH client" section and download the file with .pem extension.
+- Fill in the relevant sections as in the image above. then press "Advanced".In the section that opens, enter the Authentication section under the SSH tab. Add the file you downloaded to "Private key file" and click Open. Note: the file does not appear because it has a .pem extension. Select All Files(*.*) to see the file.
+
+It will ask you if you want to convert it to Putty format (.pkk). Press OK then click Save. After converting, click OK again and go to the main page. Press "Save" and connect to the server.
+
+  ![image](https://github.com/user-attachments/assets/34396471-4b4e-4acf-9d31-c0f382d148a3)
+
+  ![image](https://github.com/user-attachments/assets/07c82749-a417-4a0f-96e5-27ad83fe2570)
+
+   
