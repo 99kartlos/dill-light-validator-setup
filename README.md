@@ -24,7 +24,7 @@ Open your terminal and execute the following command to download and run the scr
    curl -O https://raw.githubusercontent.com/99kartlos/dill-light-validator-setup/main/setup_light_validator.sh && chmod +x setup_light_validator.sh && ./setup_light_validator.sh
    ```
 
-2 **ddeneme** 
+2 **Do the following in order** 
 
 - Wait for the files to download.
 - Language selection: First, press 3 and enter. Then press 4. Select both in English
@@ -42,3 +42,8 @@ ubuntu      1981       1 86 08:09 pts/0    00:00:43 /home/ubuntu/dill/dill-node 
 ...
 Setup complete!
 ```
+
+
+## Staking
+
+
