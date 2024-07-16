@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/5d7fe9ce-ede9-47ec-b62d-c3c0ba72a9c0)# Dill Light Validator Kurulum 
-
 |  | Minimum |
 | --- | --- |
 | CPU | 2 cores |
