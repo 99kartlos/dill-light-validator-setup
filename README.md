@@ -22,5 +22,23 @@ Open your terminal and execute the following command to download and run the scr
 
    ```sh
    curl -O https://raw.githubusercontent.com/99kartlos/dill-light-validator-setup/main/setup_light_validator.sh && chmod +x setup_light_validator.sh && ./setup_light_validator.sh
+   ```
 
-1. **Download and run the setup script:** 
+2 **ddeneme** 
+
+- Wait for the files to download.
+- Language selection: First, press 3 and enter. Then press 4. Select both in English
+- Create a strong password. At least 8 characters long and confirm Keystore Password:
+- Specify the amount of DILL tokens to be deposited for your validator. Choose the default amount: 2500 DILL tokens. So press Enter
+- Record Mnemonic Phrase. Write down the mnemonic (seed phrase) as displayed. (Store it securely and safely. It is the ONLY way to retrieve your deposit if needed.)
+- Configure and Save Keystore Password: Finalize the configuration by confirming and saving the keystore password for your imported accounts.
+- Imported Account Password: Enter the password for your imported accounts to complete the configuration.
+- Finally, run the Node by re-entering the password you wrote in the previous step.
+
+If you completed all the steps correctly, you will get an output similar to this:
+
+```
+ubuntu      1981       1 86 08:09 pts/0    00:00:43 /home/ubuntu/dill/dill-node --light --embedded-geth --datadir /home/ubuntu/dill/light_node/data/beacondata --genesis-state /home/ubuntu/dill/genesis.ssz --grpc-gateway-host 0.0.0.0 --initial-validators /home/ubuntu/dill/validators.j
+...
+Setup complete!
+```
