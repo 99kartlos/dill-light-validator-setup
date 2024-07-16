@@ -67,7 +67,7 @@ cat ./validator_keys/deposit_data-xxxx.json
 
 ------
 
- **Lightsail'e kurulum yapanlar için mevduat_data-xxxx.json nasıl edinilir:**
+ **How to get deposit_data-xxxx.json for those installing on lightsail:**
 
 - If you have installed the node on Lightsail and cannot connect to the server, follow these steps:
 
