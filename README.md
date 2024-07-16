@@ -44,7 +44,7 @@ ubuntu      1981       1 86 08:09 pts/0    00:00:43 /home/ubuntu/dill/dill-node 
 ...
 Setup complete!
 ```
-
+------
 
 ## Staking
 
