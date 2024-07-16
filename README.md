@@ -51,7 +51,9 @@ Setup complete!
 - visit https://staking.dill.xyz/
 
 - Here you will upload your file with deposit_data-xxxx.json extension. If you want, you can create this file yourself. To do this, you can create and upload a file named deposit_data-xxxx.json with the output you receive using this code.
-
+```
+cat ./validator_keys/deposit_data-xxxx.json
+```
 - To get from SCP: 
 
 
