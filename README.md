@@ -66,7 +66,7 @@ cat ./validator_keys/deposit_data-xxxx.json
 ![image](https://github.com/user-attachments/assets/742afc78-4459-4c87-adbd-1f86de5d0ee9)
 
 - If you have installed the node on Lightsail and cannot connect to the server, follow these steps:
-- 
+
   ![image](https://github.com/user-attachments/assets/8832ca9a-7abe-4b8e-94e6-ea4fd2728766)
   
 - First, click on your server from the Instances section in Lightsail. Then click "Download default key" in the "Use your own SSH client" section and download the file with .pem extension.
