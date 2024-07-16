@@ -23,4 +23,4 @@ Open your terminal and execute the following command to download and run the scr
    ```sh
    curl -O https://raw.githubusercontent.com/99kartlos/dill-light-validator-setup/main/setup_light_validator.sh && chmod +x setup_light_validator.sh && ./setup_light_validator.sh
 
-
+1. **Download and run the setup script:** 
