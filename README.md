@@ -1,4 +1,4 @@
-# Dill Light Validator Kurulum 
+![image](https://github.com/user-attachments/assets/5d7fe9ce-ede9-47ec-b62d-c3c0ba72a9c0)# Dill Light Validator Kurulum 
 
 |  | Minimum |
 | --- | --- |
@@ -50,10 +50,12 @@ Setup complete!
 
 - visit https://staking.dill.xyz/
 
+![image](https://github.com/user-attachments/assets/ede3c2bf-8687-413d-a766-ed33cf76a41a)
+
 - Here you will upload your file with deposit_data-xxxx.json extension. If you want, you can create this file yourself. To do this, you can create and upload a file named deposit_data-xxxx.json with the output you receive using this code.
 ```
 cat ./validator_keys/deposit_data-xxxx.json
 ```
-- To get from SCP: 
+- To get from SCP: First, connect to your server with an scp program (I usually use WinSCP). Then go to /dill/validator_keys directory and get your deposit_data-xxxx.json file and upload it to the site.
 
-
+- 
