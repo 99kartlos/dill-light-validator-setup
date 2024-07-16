@@ -14,31 +14,37 @@
 | Currency symbol | DILL |
 | Explorer URL | https://andes.dill.xyz/ |
 
-## Talimatlar
+## Instructions
 
-1. **Kurulum scriptini indirin ve çalıştırın:**
+1. **Download and run the setup script:**
 
-   Terminalinizi açın ve aşağıdaki komutu çalıştırarak scripti indirin ve çalıştırın:
+Open your terminal and execute the following command to download and run the script:
 
    ```sh
    curl -O https://raw.githubusercontent.com/99kartlos/dill-light-validator-setup/main/setup_light_validator.sh && chmod +x setup_light_validator.sh && ./setup_light_validator.sh
 
 
-2. **Sırasıyla Soruları yanıtlayın:**
+2. **Answer the questions in sequence:**
 
-- Dosyaları indirmesini bekleyin.
+- Answer the questions in sequence:
 
-- Dil seçimi: Sırasıya 3 ve 4'e basın. İngilizce dışında bir şey seçmenize gerek yok.
+- Wait for the files to download.
 
-- Parola oluşturma: Validator keystore(s) güvenliği için bir şifre oluşturun. Daha sonra onaylamak için tekrar girin.
+- Language selection: Press 3 and then 4 in sequence. You do not need to select anything other than English.
 
-- Yatırılacak DILL token miktarı (varsayılan olarak 2500) olarak seçin. Yani Enter deyip geçin.
+- Create a password: Create a password for validator keystore(s) security. Enter it again to confirm.
 
-- Mnemonic (Seed Phrase) Not Edinme: Mnemonic'leriniz size gösterilecektir. Bunu kopyalayıp onaylamak için tekrar girin ve güvenli bir yerde saklayın. Bu, depozitonuzu geri almanın TEK yoludur.
+- Choose the amount of DILL tokens to deposit (default is 2500). Simply press Enter to proceed with the default.
 
-- Key'ler oluşturulduktan sonra  "Success! Your keys can be found at: ./validator_keys" çıktısını aldıtkan sonra enter deyip geçin.
+- Note your Mnemonic (Seed Phrase): Your mnemonic will be shown to you. Copy it and enter it again to confirm. Store it securely as this is the ONLY way to recover your deposit.
 
-- Şimdi sizden cüzdan şifresi girmenizi isteyecek. En az 8 karakterli bir şifre girin ve onaylamak için tekrar girin.
+- After keys are generated, proceed with pressing Enter after seeing the message "Success! Your keys can be found at: ./validator_keys".
 
-- Sırada içe aktardığınız hesaplarınızın şifresini girmek var. 
+- Now it will ask you to enter your wallet password. Enter a password of at least 8 characters and confirm it.
+
+- Next, you will be prompted to enter the password for the accounts you imported.
+
+- Finally, enter the wallet password you created earlier.
+ 
+NOTE: Remember to store the passwords you enter securely.
 
