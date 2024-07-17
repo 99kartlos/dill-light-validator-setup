@@ -82,4 +82,15 @@ It will ask you if you want to convert it to Putty format (.pkk). Press OK then 
 
   ![image](https://github.com/user-attachments/assets/07c82749-a417-4a0f-96e5-27ad83fe2570)
 
+------
    
+# Important Commands
+
+- If you are not in the Dill directory, you can move to the Dill directory with this command.
+```
+cd dill
+```
+- You can use this to check if the node is up and running
+- ```
+ps -ef | grep dill 
+```
