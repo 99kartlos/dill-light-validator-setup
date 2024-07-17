@@ -65,6 +65,16 @@ cat ./validator_keys/deposit_data-xxxx.json
 
 ![image](https://github.com/user-attachments/assets/742afc78-4459-4c87-adbd-1f86de5d0ee9)
 
+- After uploading the deposit_data-xxxx.json file to the site, click Connect to MetaMask, make sure you have enough funds (>2500 DILL)
+
+![image](https://github.com/user-attachments/assets/8a18d6f7-41cb-49b5-9a1d-a74063598d11)
+
+- Send deposit, using MetaMask to send a deposit transaction
+
+![image](https://github.com/user-attachments/assets/8d9ca2aa-3458-4705-a37e-56509d279894)
+
+- Yes, that's all. After these operations, you can check it with your public key (prefixed with 0x) on the last pages in the validators section in Explorer. It may take a while to appear
+
 ------
 
  **How to get deposit_data-xxxx.json for those installing on lightsail:**
