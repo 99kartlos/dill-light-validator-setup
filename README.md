@@ -96,11 +96,15 @@ It will ask you if you want to convert it to Putty format (.pkk). Press OK then 
    
 # Important Commands
 
-- If you are not in the Dill directory, you can move to the Dill directory with this command.
+- If you are not in the Dill directory, you can move to the Dill directory with this command. (you have to run the codes, in the "dill" directory)
 ```
-cd dill
+cd dill 
 ```
 - You can use this to check if the node is up and running
 ```
 ps -ef | grep dill 
+```
+- check node running
+```
+./health_check.sh -v
 ```
