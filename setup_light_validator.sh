@@ -46,7 +46,7 @@ echo "Checking if the node is up and running..."
 ps -ef | grep dill
 
 # Create health_check.sh script
-echo "Creating health_check.sh script..."
+
 cat <<EOL > $HEALTH_CHECK_FILE
 #! /bin/bash
 
