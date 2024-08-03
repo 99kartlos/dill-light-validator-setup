@@ -45,7 +45,25 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/launch
  ![image](https://github.com/user-attachments/assets/f8238c5a-b216-476c-a5a3-18fc919211b6)
   
   - Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından Send Deposit'e basarak depositini gerçekleştirin. 
- - Transacion Successful yazısını gördüyseniz evet, hepsi bu kadar. Bu işlemlerden sonra, Explorer'daki doğrulayıcılar bölümündeki son sayfalarda bulunan açık anahtarınızla (0x önekiyle) kontrol edebilirsiniz. Görünmesi biraz zaman alabilir
 
 ![image](https://github.com/user-attachments/assets/395cd79e-3faf-4f54-ae96-b132189abd45)
 
+ - Transacion Successful yazısını gördüyseniz evet, hepsi bu kadar. Bu işlemlerden sonra, Explorer'daki doğrulayıcılar bölümündeki son sayfalarda bulunan açık anahtarınızla (0x önekiyle) kontrol edebilirsiniz. Görünmesi biraz zaman alabilir
+
+
+## Önemli Komutlar
+
+- Eğer Dill dizininde değilseniz, bu komutla Dill dizinine geçebilirsiniz. (kodları "dill" dizininde çalıştırmanız gerekiyor)
+```
+cd dill 
+```
+
+- Node'un çalışıp çalışmadığını kontrol etmek için
+```
+./health_check.sh -v
+```
+
+- Node sync olup olmadığını kontrol etmek için. Eğer bu çıktıyı alıyorsanız node sync olmuş demektir. ({"head_slot":"xxxxx","sync_distance":"0","is_syncing":false,"is_optimistic":false,"el_offline":false}})
+```
+curl -s localhost:3500/eth/v1/node/syncing
+```
