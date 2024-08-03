@@ -20,3 +20,9 @@ Currency Symbol | DILL
 Explorer URL | https://andes.dill.xyz/
 
 # Talimatlar
+
+İlk olarak terminali açın. Daha sonra aşağıdaki kodu çalıştırın. 
+
+```
+curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/launch_dill_node.sh  && chmod +x launch_dill_node.sh && ./launch_dill_node.sh
+```
