@@ -34,7 +34,9 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/launch
 
 ## Staking
 
-  - Öncelikle, Andes kanalından faucet'i cüzdanınıza alın. Node'da oluşturduğunuzdan farklı bir cüzdan kullanın ve faucet'i yalnızca bir kez alabileceğinizi unutmayın ($request xxxxx)
+Not: Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Sync kodunu reponun en altına ekledim. Kontrol edebilirsiniz.
+
+  - Öncelikle, Andes kanalından faucet'i cüzdanınıza alın. Node'da oluşturduğunuzdan farklı bir cüzdan kullanın ve faucet'i yalnızca bir kez alabileceğinizi unutmayın ($request xxxxx).
   - https://staking.dill.xyz/ adresini ziyaret edin.
 
  ![image](https://github.com/user-attachments/assets/3c24ea5d-c728-4ee7-87f3-b2a42abd5dd5)
@@ -63,7 +65,7 @@ cd dill
 ./health_check.sh -v
 ```
 
-- Node sync olup olmadığını kontrol etmek için. Eğer bu çıktıyı alıyorsanız node sync olmuş demektir. ({"head_slot":"xxxxx","sync_distance":"0","is_syncing":false,"is_optimistic":false,"el_offline":false}})
+- Node sync olup olmadığını kontrol etmek için. Eğer bunun gibi bir çıktı alıyorsanız node sync olmuş demektir. ({"head_slot":"173420","sync_distance":"0","is_syncing":false,"is_optimistic":false,"el_offline":false}}
 ```
 curl -s localhost:3500/eth/v1/node/syncing
 ```
