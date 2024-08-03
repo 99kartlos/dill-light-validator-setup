@@ -32,7 +32,7 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/launch
 - "Step 2 Completed. Press any key to continue..." çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
 - En sonda "node running, congratulations" çıktısı validator_pubkeyinizi ve alacaksınız ve kurulum tamamlanacak.
 
-  ## Staking
+## Staking
 
   - Öncelikle, Andes kanalından faucet'i cüzdanınıza alın. Node'da oluşturduğunuzdan farklı bir cüzdan kullanın ve faucet'i yalnızca bir kez alabileceğinizi unutmayın ($request xxxxx)
   - https://staking.dill.xyz/ adresini ziyaret edin.
